@@ -64,7 +64,7 @@ class KalmanFilter:
 		pass
 
 	def kalmanUpdate(self):
-		# This method implements the prediction step of the Kalman Filter.
+		# This method implements the update/correction step of the Kalman Filter.
 		
 		# 
 		# You will possibly need to do something with the IMU and UWB data here,
