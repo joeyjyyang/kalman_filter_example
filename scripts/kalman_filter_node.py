@@ -47,7 +47,7 @@ class KalmanFilter:
 		# for the system.
 		pass
 
-	def	initCovar(self):
+	def initCovar(self):
 		# This method implements the initialization of the covariance matrices
 		# for the system.
 		pass
