@@ -1,0 +1,5 @@
+<launch>
+ <include file="$(find kalman_filter_example)/launch/sensors.launch"/>
+
+ <node name="kalman_filter_node" pkg="kalman_filter_example" type="kalman_filter_node.py" output="screen"/>
+</launch>

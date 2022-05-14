@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>kalman_filter_example</name>
+  <version>0.0.0</version>
+  <description>Example.</description>
+
+  <author email="joeyyang.ai@gmail.com">Joey Yang</author>
+  <maintainer email="joeyyang.ai@gmail.com">Joey Yang</maintainer>
+
+  <license>BSD</license>
+  
+  <url type="repository">https://github.com/joeyjyyang/kalman_filter_example</url>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+</package>
